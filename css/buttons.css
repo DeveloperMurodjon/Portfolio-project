@@ -1,0 +1,48 @@
+.btn-consultation-black {
+  cursor: pointer;
+  background-color: var(--black);
+  color: var(--light-cream);
+  border-radius: 28px;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.8;
+  padding: 14px 45px;
+}
+.btn-consultation-black:hover {
+  cursor: pointer;
+  background-color: var(--galactic-blue);
+  border-radius: 28px;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.8;
+  padding: 14px 45px;
+}
+.btn-consultation-pink {
+  cursor: pointer;
+  background-color: var(--light-red);
+  color: var(--light-cream);
+  border-radius: 28px;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.8;
+  padding: 14px 45px;
+}
+.btn-consultation-pink:hover {
+  cursor: pointer;
+  background-color: var(--summer-yellow);
+  border-radius: 28px;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.8;
+  padding: 14px 45px;
+}
+.btn-arrows {
+  cursor: pointer;
+  color: var(--light-cream);
+  background-color: var(--black);
+  padding: 24px;
+}
+.btn-arrows {
+  cursor: pointer;
+  background-color: var(--galactic-blue);
+}
