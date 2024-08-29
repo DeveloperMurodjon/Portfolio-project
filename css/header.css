@@ -1,0 +1,49 @@
+.navigation {
+  padding-top: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-content {
+  padding-top: 66px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.hero-content p {
+  padding-top: 23px;
+  max-width: 730px;
+  color: var(--medium-brown);
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  text-align: center;
+  align-items: center;
+}
+.grid-container {
+  padding-top: 80px;
+  color: #ffffff;
+}
+.grid-container div {
+  padding: 24px;
+  border-radius: 8px 8px;
+}
+.g-design-card {
+  background-color: var(--galactic-blue);
+}
+.ui-ux-card {
+  background-color: var(--summer-yellow);
+}
+.apps-card {
+  background-color: var(--light-pink);
+}
+.photography-card {
+  background-color: var(--cyan);
+}
+.illustrations-card {
+  background-color: var(--light-red);
+}
+.motion-g-card {
+  background-color: var(--purple);
+}
