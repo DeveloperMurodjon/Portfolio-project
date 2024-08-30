@@ -5,18 +5,34 @@
   border-radius: 28px;
   font-weight: 700;
   font-size: 1.6rem;
-  line-height: 2.8;
+  line-height: 2.8rem;
   padding: 14px 45px;
+}
+.btn-consultation-pink:hover {
+  background-color: var(--summer-yellow);
 }
 .btn-consultation-black:hover {
-  cursor: pointer;
   background-color: var(--galactic-blue);
-  border-radius: 28px;
-  font-weight: 700;
-  font-size: 1.6rem;
-  line-height: 2.8;
-  padding: 14px 45px;
 }
+@media (max-width: 768px) {
+  .btn-consultation-black {
+    padding: 14px 45px;
+  }
+  .btn-consultation-pink {
+    padding: 14px 45px;
+  }
+}
+@media (max-width: 375px) {
+  .btn-consultation-black {
+    padding: 28px;
+    line-height: 1.4rem;
+  }
+  .btn-consultation-pink {
+    padding: 28px;
+    line-height: 1.4rem;
+  }
+}
+
 .btn-consultation-pink {
   cursor: pointer;
   background-color: var(--light-red);
@@ -27,22 +43,14 @@
   line-height: 2.8;
   padding: 14px 45px;
 }
-.btn-consultation-pink:hover {
-  cursor: pointer;
-  background-color: var(--summer-yellow);
-  border-radius: 28px;
-  font-weight: 700;
-  font-size: 1.6rem;
-  line-height: 2.8;
-  padding: 14px 45px;
-}
+
 .btn-arrows {
   cursor: pointer;
   color: var(--light-cream);
   background-color: var(--black);
   padding: 24px;
 }
-.btn-arrows {
+.btn-arrows :hover {
   cursor: pointer;
   background-color: var(--galactic-blue);
 }
